@@ -1,5 +1,5 @@
 [project]
-name = "lambda-local"
+name = "lambda-dev"
 version = "0.1.0"
 dependencies = [
     "flask",
@@ -7,4 +7,4 @@ dependencies = [
 ]
 
 [project.scripts]
-lambda-local = "lambda_local.cli:main"
+lambda-local = "lambda_dev.cli:main"
